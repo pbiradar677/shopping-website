@@ -1,1 +1,3 @@
-Shopping Website created by using React js,tailwind css,typescript,javascript,react context api
+Shopping Website 
+Technologies used:
+ React js,tailwind css,typescript,javascript,jsx
