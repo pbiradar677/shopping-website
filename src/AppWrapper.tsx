@@ -1,8 +1,8 @@
 import { useReducer } from "react";
 import App from "./App";
-import CartContext from "./contex/CartContext";
+import CartContext from "./context/CartContext";
 import { faker } from "@faker-js/faker";
-import cartReducer, { filterReducer } from "./contex/reducer";
+import cartReducer, { filterReducer } from "./context/reducer";
 faker.seed(99);
 const AppWrapper = () => {
   const products = [...Array(20)].map(() => ({

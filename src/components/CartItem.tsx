@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { AiFillDelete } from "react-icons/ai";
-import CartContext from "../contex/CartContext";
+import CartContext from "../context/CartContext";
 import Rating from "./Rating";
 interface Product {
   id: string;

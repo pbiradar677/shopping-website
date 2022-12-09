@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import CartContext from "../contex/CartContext";
+import CartContext from "../context/CartContext";
 import CartItem from "./CartItem";
 import Product from "./Product";
 

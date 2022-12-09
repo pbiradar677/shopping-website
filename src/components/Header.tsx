@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
 import { useContext } from "react";
-import CartContext from "../contex/CartContext";
+import CartContext from "../context/CartContext";
 const Header = () => {
   const {
     state: { cart },
